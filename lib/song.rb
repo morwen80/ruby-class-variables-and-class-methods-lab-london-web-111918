@@ -14,10 +14,6 @@ class Song
     @@genres << genre 
   end
   
-  # def self.name
-  #   @@name
-  # end
-  
   def self.count
     @@count
   end
@@ -28,9 +24,9 @@ class Song
     end
   end
   
-  def self.genres
-    if @@genres.include?(@@genres) == false
-      @@genres << self
+  
+    # if @@genres.include?(@@genres) == false
+    #   @@genres << self
     end
   end
   
