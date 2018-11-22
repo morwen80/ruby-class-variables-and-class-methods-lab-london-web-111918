@@ -24,7 +24,10 @@ class Song
     end
   end
   
-  
+  def self.genres 
+    @@genres.each do |type|
+      if genres[type].include?(type) == false 
+        @@genres << type
     # if @@genres.include?(@@genres) == false
     #   @@genres << self
     end
