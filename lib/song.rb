@@ -21,7 +21,7 @@ class Song
   end
   
   def self.artists
-    if self.include?(self) == false
+    
       @@artists << self
     end
   end
