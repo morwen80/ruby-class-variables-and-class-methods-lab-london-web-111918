@@ -31,13 +31,6 @@ class Song
    # if @@genres.include?(@@genres) == false
     #   @@genres << self
     
-  def self.genres 
-    @@genres.each do |type|
-      if genres[type].include?(type) == false 
-        @@genres << type
-      end
-    end
-  end
   
   
   def self.artist_count
