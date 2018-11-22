@@ -21,9 +21,7 @@ class Song
   end
   
   def self.artists
-    
-      @@artists << self
-    end
+    @@artists.uniq 
   end
   
   
